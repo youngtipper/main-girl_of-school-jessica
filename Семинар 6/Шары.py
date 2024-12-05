@@ -42,7 +42,6 @@ def tick():
         ball.show()
     root.after(50, tick)
 
-
 root = Tk()
 root.geometry(f'{WIDTH}x{HEIGHT}')
 canvas = Canvas(root)
